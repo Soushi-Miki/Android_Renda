@@ -7,17 +7,16 @@
     android:background="#111166"
     tools:context=".MainActivity">
 
-    <Button
+    <androidx.appcompat.widget.AppCompatButton
         android:id="@+id/tapButton"
         android:layout_width="248dp"
         android:layout_height="248dp"
-        android:layout_marginTop="20dp"
+        android:layout_marginTop="16dp"
         android:background="@drawable/background_rounded_circle_glay"
         android:fontFamily="sans-serif-black"
         android:text="TAP!"
         android:textColor="#FFFFFF"
         android:textSize="64sp"
-        app:backgroundTint="#B8B8B8"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.503"
         app:layout_constraintStart_toStartOf="parent"
